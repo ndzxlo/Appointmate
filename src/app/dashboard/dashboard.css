@@ -1,0 +1,90 @@
+header {
+  background-color: white;
+}
+
+header h1 {
+  color: rgb(241, 119, 119);
+  margin-top: 2px;
+  margin-bottom: 3px;
+  padding-left: 20px;
+}
+
+.navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.link-icon {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+.app-bar h3 {
+  display: inline-flex;
+  margin: 35px;
+  margin-bottom: 5px;
+}
+
+.app-bar hr {
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.35);
+}
+
+.appTypeToggle,
+.appScheduleToggle {
+  color: #7c7373;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content Link {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content Link:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.drop-down-icon,
+.link-icon {
+  color: #7c7373;
+}

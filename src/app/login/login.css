@@ -1,0 +1,93 @@
+.parent {
+  display: inline-flex;
+  border-radius: 10px;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 4px 5px 12px 1px rgba(0, 0, 0, 0.35);
+  height: 70vh;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.webName {
+  color: #f17777;
+  font-size: 55px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  width: 320px;
+}
+
+.container h3 {
+  color: rgb(79, 78, 78);
+  font-weight: normal;
+}
+
+.container .acc-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.container input {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.side-info {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(247, 180, 180);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 0.5rem;
+  width: 310px;
+}
+
+.side-info button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(241, 119, 119);
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: rgb(79, 78, 78);
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: rgb(251, 251, 251);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: rgb(79, 78, 78);
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  background-color: rgb(251, 251, 251);
+}
