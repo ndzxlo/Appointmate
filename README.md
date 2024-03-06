@@ -1,3 +1,7 @@
+Appointmate is a web app for managing your appointments and schedules. It allows you to share a link to your account where users can book a certaain type of appointment/meeting for the given available days and hours. They also have a choice to choose the meeting method(Teams, Meet, Zoom etc)
+
+This is a personal project I used to learn react, js and web dev. Built using javascript, html, css, nextjs, with firebase database and auth.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
